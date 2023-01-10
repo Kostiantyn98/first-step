@@ -1,0 +1,10 @@
+1.mysql -u usern look into
+CREATE DATABASE
+USE
+DROP DATABASE delete
+SHOW TABLES;
+DESCRIBE;    all information
+CREATE TABLE 
+DROP TABLE
+SELECT * FROM  show in object
+LOAD DATA INFILE ‘path’ replace INTO TABLE [table name] FIELDS TERMINATED BY ‘,’ 

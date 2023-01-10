@@ -1,0 +1,18 @@
+pwd
+date
+ls, ls -la 
+cd
+mkdir
+rm
+mv
+cat
+mkdir
+echo
+rmdir
+touch
+sudo
+chmod
+chown
+wget
+man
+hostname -I
