@@ -1,0 +1,5 @@
+"""Задача «Удаление фрагмента»"""
+stroka = input()
+first  = stroka[:int(stroka.find("h"))]
+last = stroka[int(stroka.rfind("h")+1):]
+print(first +""+ last)
