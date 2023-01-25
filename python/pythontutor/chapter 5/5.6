@@ -1,0 +1,6 @@
+"""Задача «Обращение фрагмента»"""
+stroka = input()
+first = stroka[:stroka.find("h")]
+between = stroka[stroka.find("h"):stroka.rfind("h")+1]
+last = stroka[stroka.rfind("h")+1:]
+print(first+between[::-1]+last)
