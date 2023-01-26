@@ -1,0 +1,13 @@
+"""Задача «Максимальное число идущих подряд равных элементов»"""
+vvod = int(input())
+i = 0
+y = 0
+while vvod != 0:
+    vvod1 =int(input())
+    if vvod == vvod1: 
+        i += 1
+        if i>y:
+            y = i
+    else:i = 0 
+    vvod = vvod1
+print(y+1)
