@@ -1,0 +1,12 @@
+"""Задача «Второй максимум»"""
+chislo=int(input())
+vvod1=0
+vvod2=0
+while chislo != 0:
+    if chislo>vvod1:
+        vvod2=vvod1
+        vvod1=chislo
+    elif chislo>vvod2 :
+        vvod2=chislo
+    chislo=int(input())
+print(vvod2)
