@@ -1,0 +1,12 @@
+"""Задача «Индекс максимума последовательности»"""
+chislo = int(input())
+thebiggest = chislo
+i = 0
+max = 0
+while chislo != 0:
+    if thebiggest < chislo:
+        thebiggest = chislo 
+        max = i
+    chislo = int(input())
+    i+=1
+print(max)
