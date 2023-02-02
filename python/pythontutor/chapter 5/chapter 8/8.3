@@ -1,0 +1,9 @@
+"""Даны два числа n и m. Создайте двумерный массив размером n×m и заполните его символами "." и "*" в шахматном порядке. В левом верхнем углу должна стоять точка."""
+n,m = [int(i) for i in input().split()]
+vvod = [['.'for i in range(m)] for i in range(n)]
+for i in range(n):
+    for j in range(m):
+        if ((i == 0 or i % 2 == 0) and j % 2 != 0 or (i % 2 != 0 and j % 2 == 0)):
+            vvod[i][j] = '*'
+for index in vvod:
+    print(' '.join(index))
